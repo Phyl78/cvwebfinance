@@ -80,7 +80,7 @@ const txtAnim=document.querySelector('h5');
 .changeDelay(20)
 .typeString('<span style="font-family:oxygen,helvetica, sans-serif;">Bonjour, </span>') 
 .pauseFor(1300)
-.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">j\'ai fait ci-dessous une liste de mes compétences  </br> en finance et en développement web.</span>')
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">j\'ai fait ci-dessous une liste de mes compétences  </br> en finance et de mes capacités à automatiser des tâches grâce à l\'informatique.</span>')
 .start()
 
 

@@ -32,7 +32,7 @@ const txtAnim=document.querySelector('h5');
 .changeDelay(20)
 .typeString('Bonjour, moi c\'est Phyl.')
 .pauseFor(800)
-.typeString(' Fort de deux expériences réussies en finance des marchés j\'ai acquis de cela des compétences en:')
+.typeString(' Fort de deux expériences réussies en finance des marchés, j\'ai acquis de cela des compétences en:')
 .pauseFor(4000)
 .typeString('<strong> analyse de données chiffrées </strong>')
 .pauseFor(3000)
@@ -66,7 +66,7 @@ const txtAnim=document.querySelector('h5');
 .typeString('<span style="color:rgb(185, 11, 185)"> Bootsrap </span>')
 .pauseFor(1000)
 .deleteChars(9)
-.typeString(' et <span style="color:blue">Wordpress !</span>')
+.typeString(' et <span style="color:blue">Wordpress</span> !')
 .pauseFor(1000)
 .deleteChars(24)
 .typeString('. Je suis donc à la recherche d\'un poste en finance ou en comptabilité')
@@ -99,42 +99,42 @@ const txtAnim=document.querySelector('h5');
 
 // animations langue et certification 
 
-const langue = document.querySelector('.toeic')
-const certif = document.querySelector('.amf')
+// const langue = document.querySelector('.toeic')
+// const certif = document.querySelector('.amf')
 
 
-const TL1 = new TimelineMax({paused: true}); 
+// const TL1 = new TimelineMax({paused: true}); 
 
-TL1
-.from (carte1,1,{opacity:0, x:-100})
-.from (caceis,1,{opacity:0, x:100})
-.from (friedland,1,{opacity:0, x:-100})
-.from (carte2,1,{opacity:0, x:100})
-.from (carte3,1,{opacity:0, x:-100})
-.from (grdf,1,{opacity:0, x:100})
+// TL1
+// .from (carte1,1,{opacity:0, x:-100})
+// .from (caceis,1,{opacity:0, x:100})
+// .from (friedland,1,{opacity:0, x:-100})
+// .from (carte2,1,{opacity:0, x:100})
+// .from (carte3,1,{opacity:0, x:-100})
+// .from (grdf,1,{opacity:0, x:100})
 
 // btnPlay.addEventListener('click', ()=>{
 //     TL1.play();
 // })
 
-const TL2 = new TimelineMax({paused: true});
+// const TL2 = new TimelineMax({paused: true});
 
-TL2
-.from (carte4,1,{opacity:0, x:-100})
-.from (lamanu1,1,{scale:0}, '-=0.4') 
-.from (lamanu2,1,{scale:0}, '-=0.4') 
-.from (carte5,1,{opacity:0, x:100},'-=0.4')
-.from (carte6,1,{opacity:0, x:-100}, '-=0.4')
-.from (iae,1,{scale:0},'-=0.4')
-.from (uca,1,{scale:0},'-=0.4')
-.from (carte7,1,{opacity:0, x:100},'-=0.4')
+// TL2
+// .from (carte4,1,{opacity:0, x:-100})
+// .from (lamanu1,1,{scale:0}, '-=0.4') 
+// .from (lamanu2,1,{scale:0}, '-=0.4') 
+// .from (carte5,1,{opacity:0, x:100},'-=0.4')
+// .from (carte6,1,{opacity:0, x:-100}, '-=0.4')
+// .from (iae,1,{scale:0},'-=0.4')
+// .from (uca,1,{scale:0},'-=0.4')
+// .from (carte7,1,{opacity:0, x:100},'-=0.4')
 
 
-const TL3 = new TimelineMax({paused: false});
+// const TL3 = new TimelineMax({paused: false});
 
-TL3
-.from (langue,1,{opacity:0, y:-100})
-.from (certif,1,{opacity:0 , y:100})
+// TL3
+// .from (langue,1,{opacity:0, y:-100})
+// .from (certif,1,{opacity:0 , y:100})
 
 
 // animation de la barre de navigation 

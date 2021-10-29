@@ -1481,7 +1481,7 @@ body
         pointer-events: auto;
         opacity: 1;
         position: fixed;
-        color: violet;
+        /* color: violet; */
 
         
 }

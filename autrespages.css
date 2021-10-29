@@ -287,6 +287,7 @@ h2, .dev{
     flex-wrap: wrap;
     justify-content: center;
     /* border: 2px solid blue; */
+    overflow:scroll;
 }
 
 
@@ -298,17 +299,31 @@ h2, .dev{
     width: 100px;
     text-align: center;
     padding: 2px;
+    /* font-size: 14px; */
 
 }
 
-.bout_1{
+.bout:hover{
+    color:#790303 ;
+}
+
+.bout_1, .bout_1b, .bout_1c, .bout_1d, .bout_1e {
     background-color: rgb(182, 182, 182);
     border-radius: 30px; 
-    height: 40px;
+    height: 35px;
     width: 150px;
     text-align: center;
     padding: 2px;
+    margin: 3px;
+    /* border: 2px solid maroon; */
+    font-size: 14px;
+    /* margin-top: 20px; */
 }
+
+.bout_1:hover, .bout_1b:hover, .bout_1c:hover, .bout_1d:hover, .bout_1e:hover{
+    color: #790303;
+}
+
 
 .chat{
     width: 100px;
@@ -318,9 +333,9 @@ h2, .dev{
 }
 
 .am{
-    width: 100px;
-    height: 60px;
-    margin:auto 85px;
+    width: 130px;
+    height: 80px;
+    margin:20px 85px;
 
 }
 
@@ -353,26 +368,57 @@ h2, .dev{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    /* border: 2px solid yellow; */
+    overflow: scroll;
 }
 
 .bout2{
     background-color: rgb(182, 182, 182);
     border-radius: 30px; 
-    height: 40px;
+    height: 35px;
     width: 100px;
     text-align: center;
     padding: 2px;
+    /* font-size: 14px; */
 
 }
 
-.bout_2{
+.bout2:hover{
+    color: #790303;
+}
+
+
+
+.bout_2, .bout_2b, .bout_2c{
     background-color: rgb(182, 182, 182);
     border-radius: 30px; 
     height: 40px;
     width: 100px;
     text-align: center;
     padding: 2px;
+    margin: 3px ;
+    font-size: 14px;
+    
+}
 
+.bout_2:hover, .bout_2b:hover, .bout_2c:hover{
+    color:#790303 ;
+}
+
+
+.bout_2d, .bout_2e{
+    background-color: rgb(182, 182, 182);
+    border-radius: 30px; 
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    padding: 2px;
+    margin: 3px ;
+    font-size: 14px;
+}
+
+.bout_2d:hover, .bout_2e:hover{
+    color:#790303 ;
 }
 
 .logo2{
@@ -383,8 +429,8 @@ h2, .dev{
 }
 
 .compta{
-    width: 77px;
-    height: 60px;
+    width: 130px;
+    height: 80px;
     margin:15px 85px;
 }
 
@@ -416,6 +462,8 @@ h2, .dev{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    overflow: scroll;
+    /* border: 2px solid red; */
 }
 
 .bout3{
@@ -428,6 +476,12 @@ h2, .dev{
 
 }
 
+.bout3:hover{
+    color: #790303;
+}
+
+
+
 .bout_3{
     background-color: rgb(182, 182, 182);
     border-radius: 30px; 
@@ -435,6 +489,28 @@ h2, .dev{
     width: 400px;
     text-align: center;
     padding: 2px;
+    margin: 3px;
+    font-size: 15px;
+}
+
+.bout_3b, .bout_3c {
+    background-color: rgb(182, 182, 182);
+    border-radius: 30px; 
+    height: 35px;
+    width: 400px;
+    text-align: center;
+    padding: 2px;
+    margin: 3px;
+    font-size: 15px;
+
+}
+
+.bout_3b:hover, .bout_3c:hover{
+    color:#790303 ;
+}
+
+.bout_3:hover{
+    color: #790303;
 }
 
 .logo3{
@@ -445,9 +521,9 @@ h2, .dev{
 }
 
 .certif_amf{
-    width: 80px;
-    height: 60px;
-    margin:auto 85px;   
+    width: 130px;
+    height: 80px;
+    margin: 0px 85px 30px;   
 }
 
 .text3{
@@ -485,6 +561,12 @@ h2, .dev{
 
 }
 
+.bout4:hover{
+    color: #790303;
+}
+
+
+
 .logo4{
     width: 110px;
     height: 60px;
@@ -519,6 +601,12 @@ h2, .dev{
     padding: 2px;
 
 }
+
+.bout5:hover{
+    color: #790303;
+}
+
+
 
 .logo5{
     width: 80px;
@@ -556,6 +644,10 @@ h2, .dev{
 
 }
 
+.bout6:hover{
+    color: #790303;
+}
+
 .logo6{
     width: 80px;
     height: 80px;
@@ -588,6 +680,10 @@ h2, .dev{
     text-align: center;
     padding: 2px;
 
+}
+
+.bout7:hover{
+    color: #790303;
 }
 
 .logo7{
@@ -626,6 +722,10 @@ h2, .dev{
 
 }
 
+.bout8:hover{
+    color: #790303;
+}
+
 .logo8{
     width: 100px;
     height: 80px;
@@ -658,6 +758,10 @@ h2, .dev{
     text-align: center;
     padding: 2px;
 
+}
+
+.bout9:hover{
+    color: #790303;
 }
 
 .logo9{
@@ -697,6 +801,10 @@ h2, .dev{
 
 }
 
+.bout10:hover{
+    color: #790303;
+}
+
 .logo10{
     width: 115px;
     height: 75px;
@@ -734,6 +842,10 @@ h2, .dev{
     text-align: center;
     padding: 2px;
 
+}
+
+.bout11:hover{
+    color: #790303;
 }
 
 .logo11{
