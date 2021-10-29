@@ -1371,7 +1371,7 @@ body
 {
     background-image: url(imagescv/abstract2.jpg);
     background-repeat: no-repeat;
-    background-size: 1400px;
+    background-size: 100%;
     max-height:200px;
     min-width: 640px;
     
