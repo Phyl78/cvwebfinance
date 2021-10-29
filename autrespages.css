@@ -866,7 +866,7 @@ h2, .dev{
     background-size: 100%;
     height: 150px;
     /* max-height: 300px; */
-    margin-top: 280px;
+    margin-top: 720px;
     padding: 10px 0; 
     color: white;
     
@@ -969,6 +969,7 @@ h2, .dev{
     color: white;
     box-shadow: 0 5px 17px rgba(0,0,0,0.6);
     
+    
 
 }
 
@@ -981,7 +982,7 @@ h2, .dev{
     height: 35vw;
     width: 25vw;
     margin-top: 130px;
-    margin-left: 850px;
+    margin-left: 881px;
     
 }
 
@@ -1025,7 +1026,7 @@ h2, .dev{
 .combi3{
     height: 35vw;
     width: 25vw;
-    margin: 5px 0px 0px 23px;
+    margin: 29px 0px 0px 23px;
     /* border: 2px solid green; */
 }
 
