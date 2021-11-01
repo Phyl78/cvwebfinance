@@ -987,7 +987,7 @@ a{
     /* border: 2px solid green; */
     height: 30vw;
     width: 25vw;
-    margin-top:98px;
+    margin-top:115px;
     /* margin-bottom: 30px; */
     margin-left: 813px;
     
@@ -1014,13 +1014,17 @@ a{
 
 .maquette13{
     height: 400px;
-    width: 600px;
+    width: 500px;
     margin: 50px auto;
     /* border: 2px solid yellow; */
 }
 
 .maquette_pratique{
-    margin-top: 23px;   
+    /* margin-top: 23px;  */
+   height: 200px;
+    width: 100%;
+    margin: auto;
+     /* border: 2px solid yellow; */
 }
 
 .landing{
@@ -1038,47 +1042,61 @@ a{
 .combi1{
     height: 35vw;
     width: 25vw;
-    margin:100px auto;
+    margin: auto;
+    /* margin:100px 42px 0px 22px; */
     /* border: 2px solid red; */
 }
 
 .combi3{
     height: 35vw;
     width: 25vw;
-    margin: 100px 0px 0px 23px;
+    margin:auto;
+    /* margin: 100px 0px 0px 23px; */
     /* border: 2px solid violet; */
 }
 
 .combi4{
     height: 35vw;
     width: 25vw;
-    margin: 100px 5px 0px 65px;
+    margin: 100px auto;
+    /* margin: 100px 5px 0px 65px; */
     /* border: 2px solid blue; */
 }
 
 
 .combi2{
-    height: 35vw;
+    height: 30vw;
     width: 25vw;
-    margin: auto;
+    margin: 0px auto 10px;
+    /* border: 2px solid blue; */
 }
 
 .combi_memoire{
     height: 400px;
     width: 550px;
-    margin: auto;
+    margin-left: 19px;
+    /* margin: auto; */
 }
 
 .combi_amf{
     height: 400px;
-    width: 450px;
+    width: 350px;
     margin: auto;
+    /* border: 2px solid violet; */
 }
 
 .combi_toeic{
     height: 400px;
-    width: 450px;
+    width: 350px;
+    /* margin-right: 300px; */
+    /* border: 2px solid red; */
+}
+
+.combi_stage{
+    height: 400px;
+    width: 350px;
     margin: auto;
+    /* margin-left: -140px; */
 }
 
 .page {
@@ -1304,6 +1322,7 @@ main {
 
     position: relative;
     /* border: 2px solid green; */
+    margin-right: 15px;
     /* width: 400px; */
 
 }
@@ -1377,7 +1396,7 @@ main {
     top: 0;
     left: 0;
     width: 100%;
-    height: 107%;
+    height: 125%;
     background: rgba(0, 0, 0, 0.6); 
     color: #ffff;
     display: flex; 
