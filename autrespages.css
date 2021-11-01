@@ -955,7 +955,8 @@ h2, .dev{
     /* justify-content: space-betwee; */
     width: 90%;
     margin: auto;
-    /* height: 5200px; */
+    /* border: 2px solid blue; */
+    /* height: 2000px; */
     /* justify-content: center; */
    
 }
@@ -968,10 +969,15 @@ h2, .dev{
     transition: all 0.2s ease-in-out;
     color: white;
     box-shadow: 0 5px 17px rgba(0,0,0,0.6);
-    
-    
 
 }
+
+
+a{
+
+    text-decoration: none;
+}
+
 
 .combi:hover{
     background: #790303;
@@ -979,10 +985,11 @@ h2, .dev{
 
 .comb{
     /* border: 2px solid green; */
-    height: 35vw;
+    height: 30vw;
     width: 25vw;
-    margin-top: 130px;
-    margin-left: 881px;
+    margin-top:98px;
+    /* margin-bottom: 30px; */
+    margin-left: 813px;
     
 }
 
@@ -999,9 +1006,21 @@ h2, .dev{
 }
 
 .maquette3{
-    height: 200;
-    width: 100%;
+    height: 400px;
+    width: 600px;
     margin: auto;
+    /* border: 2px solid green; */
+}
+
+.maquette13{
+    height: 400px;
+    width: 600px;
+    margin: 50px auto;
+    /* border: 2px solid yellow; */
+}
+
+.maquette_pratique{
+    margin-top: 23px;   
 }
 
 .landing{
@@ -1019,21 +1038,21 @@ h2, .dev{
 .combi1{
     height: 35vw;
     width: 25vw;
-    margin: 30px auto;
+    margin:100px auto;
     /* border: 2px solid red; */
 }
 
 .combi3{
     height: 35vw;
     width: 25vw;
-    margin: 29px 0px 0px 23px;
-    /* border: 2px solid green; */
+    margin: 100px 0px 0px 23px;
+    /* border: 2px solid violet; */
 }
 
 .combi4{
     height: 35vw;
     width: 25vw;
-    margin: 5px 5px 0px 65px;
+    margin: 100px 5px 0px 65px;
     /* border: 2px solid blue; */
 }
 
@@ -1041,6 +1060,24 @@ h2, .dev{
 .combi2{
     height: 35vw;
     width: 25vw;
+    margin: auto;
+}
+
+.combi_memoire{
+    height: 400px;
+    width: 550px;
+    margin: auto;
+}
+
+.combi_amf{
+    height: 400px;
+    width: 450px;
+    margin: auto;
+}
+
+.combi_toeic{
+    height: 400px;
+    width: 450px;
     margin: auto;
 }
 
@@ -1278,6 +1315,13 @@ main {
 
 }
 
+#image_img2{
+    display: block;
+    width:100%; 
+    /* border: 2px solid yellow; */
+
+}
+
 .image_overlay{
     position: absolute;
     top: 0;
@@ -1373,9 +1417,9 @@ main {
 } 
 
 .image_title{
-    font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 200px;
+    font-size: 1.5em;
+    /* font-weight: bold; */
+    /* margin-bottom: 200px; */
 }
 
 .image_description{
