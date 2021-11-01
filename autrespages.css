@@ -1027,6 +1027,13 @@ a{
      /* border: 2px solid yellow; */
 }
 
+.maquette_bmc{
+    height: 400px;
+    width: 100%;
+    /* margin: auto; */
+     /* border: 2px solid yellow; */
+}
+
 .landing{
     height: 200;
     width: 100%;
@@ -1066,16 +1073,17 @@ a{
 
 .combi2{
     height: 30vw;
-    width: 25vw;
-    margin: 0px auto 10px;
+    width: 20vw;
+    /* margin: 0px auto 10px; */
     /* border: 2px solid blue; */
 }
 
 .combi_memoire{
     height: 400px;
-    width: 550px;
+    width: 513px;
     margin-left: 19px;
     /* margin: auto; */
+    /* border: 2px solid orangered; */
 }
 
 .combi_amf{
@@ -1098,6 +1106,16 @@ a{
     margin: auto;
     /* margin-left: -140px; */
 }
+
+
+.combi_bmc{
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    /* margin-right: -100px; */
+    /* border: 2px solid red; */
+}
+
 
 .page {
     margin: auto 400px;
