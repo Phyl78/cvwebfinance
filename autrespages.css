@@ -987,7 +987,7 @@ a{
     /* border: 2px solid green; */
     height: 30vw;
     width: 25vw;
-    margin-top:115px;
+    margin-top:158px;
     /* margin-bottom: 30px; */
     margin-left: 813px;
     
@@ -1049,7 +1049,7 @@ a{
 .combi1{
     height: 35vw;
     width: 25vw;
-    margin: auto;
+    margin: 50px auto;
     /* margin:100px 42px 0px 22px; */
     /* border: 2px solid red; */
 }
@@ -1057,7 +1057,7 @@ a{
 .combi3{
     height: 35vw;
     width: 25vw;
-    margin:auto;
+    margin:50px auto;
     /* margin: 100px 0px 0px 23px; */
     /* border: 2px solid violet; */
 }
@@ -1065,7 +1065,7 @@ a{
 .combi4{
     height: 35vw;
     width: 25vw;
-    margin: 100px auto;
+    margin: 50px auto;
     /* margin: 100px 5px 0px 65px; */
     /* border: 2px solid blue; */
 }
@@ -1074,6 +1074,7 @@ a{
 .combi2{
     height: 30vw;
     width: 20vw;
+    margin-top: 80px;
     /* margin: 0px auto 10px; */
     /* border: 2px solid blue; */
 }
@@ -1081,6 +1082,7 @@ a{
 .combi_memoire{
     height: 400px;
     width: 513px;
+    margin-top: 80px;
     margin-left: 19px;
     /* margin: auto; */
     /* border: 2px solid orangered; */
@@ -1111,7 +1113,7 @@ a{
 .combi_bmc{
     height: 400px;
     width: 300px;
-    margin: auto;
+    margin: 90px auto 0px;
     /* margin-right: -100px; */
     /* border: 2px solid red; */
 }
