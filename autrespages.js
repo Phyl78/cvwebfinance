@@ -161,3 +161,13 @@ const txtAnim5=document.querySelector('.page_carriere');
 .typeString('<span style="font-family:oxygen,helvetica, sans-serif;">et de l\'entraide en travail d\'équipe.</span>')
 .start()
 
+
+
+
+// animation du loader 
+
+const loader = document.querySelector('.chargement'); 
+
+window.addEventListener('load', ()=>{
+         loader.classList.add('fondu-out')
+})

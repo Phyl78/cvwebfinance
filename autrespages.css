@@ -1563,3 +1563,56 @@ input{
 
     
 }
+
+
+/* créaion du lodader */
+
+.chargement{
+    border: 10px solid #f3f3f3;
+    width: 100px;
+    height: 100px;
+    border-top: 10px solid #c0392b;
+    border-bottom: 10px solid #7f8c8d;
+    border-radius: 50%;
+
+    -webkit-animation: spin 1.5s linear infinite ;
+    -o-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+
+
+    /* placement loader au milieu de la page */
+
+    margin: auto;
+    position: absolute;
+    top:0; left:0; right: 0; bottom: 0;
+
+    
+}
+
+.fondu-out{
+        opacity: 0;
+        transform: opacity 0.4s ease-out;
+}
+
+/* animation du loader */
+
+@-webkit-@keyframes spin {
+
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg); 
+    }
+}
+
+
+@keyframes spin {
+
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg); 
+    }
+}
