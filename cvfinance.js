@@ -29,8 +29,9 @@ const txtAnim=document.querySelector('h5');
      deleteSpeed: 20
  })
 
+ 
 .changeDelay(20)
-.typeString('Bonjour, moi c\'est Phyl.')
+.typeString('Bonjour, moi c\'est Phyl.') 
 .pauseFor(800)
 .typeString(' Fort de deux expériences réussies en finance des marchés, j\'ai acquis de cela des compétences en:')
 .pauseFor(4000)
@@ -164,7 +165,13 @@ TL5
 .from (fas3, 1,{opacity:0, x:-100})
 
 
-// Début de la fonctionnalité du scroll
+// animation du loader 
+
+const loader = document.querySelector('.chargement'); 
+
+window.addEventListener('load', ()=>{
+         loader.classList.add('fondu-out')
+})
 
 
 
