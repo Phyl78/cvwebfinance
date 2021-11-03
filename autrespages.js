@@ -134,9 +134,9 @@ const txtAnim4=document.querySelector('.page_contact');
 .changeDelay(20)
 .typeString('<span style="font-family:oxygen,helvetica, sans-serif;">Bonjour, </span>') 
 .pauseFor(1300)
-.typeString('<span style="font-family:oxygen,helvetica, sans-serif;"> Je suis actuellement disponible pour collaborer, pour m\'écrire </br> </span>')
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;"> je suis actuellement disponible pour collaborer, </br> </span>')
 .pauseFor(300)
-.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">c\'est juste en bas ⬇️ , cordialement,</span>')
+.typeString('<span style="font-family:oxygen,helvetica, sans-serif;">n\'hésitez pas à me contacter. Cordialement,</span>')
 .start()
 
 
