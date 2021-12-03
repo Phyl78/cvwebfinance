@@ -68,7 +68,7 @@ body
 {
     background-image: url(imagescv/autre.jpg); width: 100px;
     background-repeat: no-repeat;
-    background-size: 1500px;
+    background-size: 100%;
     width: 100%;
     display: flex;
     padding-bottom: 1px;
