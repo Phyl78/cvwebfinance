@@ -1539,3 +1539,12 @@ body
         transform: rotate(360deg); 
     }
 }
+
+.container {
+
+    background-image: url(imagescv/carre.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+
+}

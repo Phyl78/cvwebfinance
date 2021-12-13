@@ -955,6 +955,7 @@ h2, .dev{
     /* justify-content: space-betwee; */
     width: 90%;
     margin: auto;
+    height: auto;
     /* border: 2px solid blue; */
     /* height: 2000px; */
     /* justify-content: center; */
@@ -1434,12 +1435,12 @@ main {
 }
 
 
-.image_overlay1, .image_overlay2, .image_overlay3, .image_overlay4{
+.image_overlay1, .image_overlay2, .image_overlay3, .image_overlay4, .image_overlay7, .image_overlay8{
     transform: translateY(20px);
     transition: transform 0.9s;
 }
 
-.image_overlay1:hover, .image_overlay2:hover, .image_overlay3:hover, .image_overlay4:hover{
+.image_overlay1:hover, .image_overlay2:hover, .image_overlay3:hover, .image_overlay4:hover, .image_overlay7:hover, .image_overlay8:hover{
     transform: translateY(0);
 } 
 
@@ -1451,7 +1452,7 @@ main {
     opacity: 1;
 }
 
-.image_overlay1:hover, .image_overlay2:hover, .image_overlay3:hover, .image_overlay4:hover{
+.image_overlay1:hover, .image_overlay2:hover, .image_overlay3:hover, .image_overlay4:hover, .image_overlay7:hover, .image_overlay8:hover{
     opacity: 1;
 } 
 
@@ -1615,4 +1616,61 @@ input{
     100%{
         transform: rotate(360deg); 
     }
+}
+
+/* 
+.container {
+
+    background-image: url(imagescv/carre.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+
+} */
+
+/* new add */
+
+.combi7{
+    height: 35vw;
+    width: 25vw;
+    margin: 30px auto 0;
+}
+
+.combi8{
+    height: 35vw;
+    width: 25vw;
+    margin: 30px auto 0;
+}
+
+.image_overlay7{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 275%;
+    background: rgba(0, 0, 0, 0.6); 
+    color: #ffff;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opactity 0.25s;
+}
+
+
+.image_overlay8{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 157%;
+    background: rgba(0, 0, 0, 0.6); 
+    color: #ffff;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opactity 0.25s;
 }
