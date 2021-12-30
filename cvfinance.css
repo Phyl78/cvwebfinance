@@ -583,7 +583,7 @@ body
     margin: auto;
     width: 70%;
     max-width: 662px;
-    min-width: 640px;
+    /* min-width: 640px; */
     /* border: 2px solid yellow; */
     height: 450px;
    
@@ -740,7 +740,7 @@ body
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 55%;
+    width: 53%;
     margin: 20px auto 70px;
     max-width: 662px;
     min-width: 640px; 
@@ -1547,4 +1547,711 @@ body
     background-size: 100%;
     width: 100%;
 
+}
+
+
+
+
+/* media query small */
+
+@media screen and (max-width:670px ) and (min-width:340px ) {
+
+    .exp1{
+        height: 65px;
+        width: 173px;
+        background-size: 173px;
+        font-size: 1.5vw;
+        
+       
+    }
+    
+   
+
+    .im1{
+    
+    margin: 0 auto 20px;
+    height: 55px;
+    width: 100px;
+    /* border: 2px solid blue; */
+    }
+
+    .im2{
+    
+        margin: 0 auto 10px;
+        height: 75px;
+        width: 150px;
+
+        /* border: 2px solid blue; */
+        }
+
+        .im{
+    
+            margin: 0 auto 10px;
+            height: 75px;
+            width: 150px;
+    
+            border: 2px solid blue;
+            }
+
+        .exp2{
+            height: 60px;
+            width: 170px;
+            background-size: 170px;
+            padding-top: 5px;
+            font-size: 1.8vw;
+            /* border: 2px solid blue; */
+        }
+
+        .exp3{
+            height: 70px;
+            width: 183px;
+            background-size: 183px;
+            font-size: 1.3vw;
+             /* border: 2px solid blue; */
+             padding-bottom: 10px;
+          
+           
+        }
+
+        .im3{
+    
+            margin: 10px auto 0px;
+            padding-bottom: 10px;
+            /* padding-right: 50px; */
+            height: 58px;
+            width: 110px;
+            /* border: 2px solid red; */
+            }
+
+        
+            #cron {
+
+                width: 340px;
+               min-width: 300px;
+                /* border: 2px solid red; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
+            .footer {
+                height:auto;
+
+            }
+}
+
+
+
+
+/* media query middle  */
+
+@media screen and (max-width:950px ) and (min-width:886px ) {
+
+    .exp1{
+        height: 120px;
+        width: 320px;
+        background-size: 320px;
+        font-size: 1.5vw;
+    }
+    
+    .im1{
+    
+    margin: 25px auto 0;
+    /* padding-bottom: 35px; */
+    height: 60px;
+    width: 180px;
+    /* border: 2px solid blue; */
+    }
+
+    .im2{
+    
+        margin: 5px auto 10px;
+        padding-top: 8px;
+        height: 90px;
+        width: 190px;
+
+        /* border: 2px solid blue; */
+        }
+
+        .exp2{
+            height: 100px;
+            width: 320px;
+            background-size: 320px;
+            padding-top: 20px;
+            font-size: 1.5vw;
+        }
+
+        .exp3{
+            height: 100px;
+            width: 320px;
+            background-size: 340px;
+            font-size: 1.5vw;
+            
+        }
+
+        .im3{
+    
+            margin: 10 auto 0px;
+            padding-bottom: 10px;
+            /* padding-right: 50px; */
+            height: 80px;
+            width: 130px;
+            /* border: 2px solid red; */
+            }
+
+        
+            #cron {
+
+               min-width: 400px;
+                /* border: 2px solid green; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
+}
+
+    /* media query small */
+
+@media screen and (max-width:886px ) and (min-width:832px ) {
+
+    .exp1{
+        height: 120px;
+        width: 300px;
+        background-size: 300px;
+        font-size: 1.5vw;
+    }
+    
+    .im1{
+    
+    margin: 25px auto 0;
+    /* padding-bottom: 35px; */
+    height: 60px;
+    width: 180px;
+    /* border: 2px solid blue; */
+    }
+
+    .im2{
+    
+        margin: 5px auto 10px;
+        padding-top: 8px;
+        height: 90px;
+        width: 180px;
+
+        /* border: 2px solid blue; */
+        }
+
+        .exp2{
+            height: 100px;
+            width: 300px;
+            background-size: 300px;
+            padding-top: 20px;
+            font-size: 1.5vw;
+        }
+
+        .exp3{
+            height: 100px;
+            width: 300px;
+            background-size: 300px;
+            font-size: 1.5vw;
+            
+        }
+
+        .im3{
+    
+            margin: 10 auto 0px;
+            padding-bottom: 10px;
+            /* padding-right: 50px; */
+            height: 80px;
+            width: 100px;
+            /* border: 2px solid red; */
+            }
+
+        
+            #cron {
+
+               min-width: 400px;
+                /* border: 2px solid teal; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
+}
+
+
+
+/* media query x small */
+
+@media screen and (max-width:832px ) and (min-width:670px ) {
+
+    .exp1{
+        height: 120px;
+        width: 280px;
+        background-size: 280px;
+        font-size: 1.5vw;
+    }
+    
+    .im1{
+    
+    margin: 25px auto 0;
+    /* padding-bottom: 35px; */
+    height: 60px;
+    width: 130px;
+    /* border: 2px solid blue; */
+    }
+
+    .im2{
+    
+        margin: 5px auto 10px;
+        padding-top: 8px;
+        height: 90px;
+        width: 130px;
+
+        /* border: 2px solid blue; */
+        }
+
+        .exp2{
+            height: 100px;
+            width: 240px;
+            background-size: 280px;
+            padding-top: 20px;
+            font-size: 1.5vw;
+        }
+
+        .exp3{
+            height: 100px;
+            width: 280px;
+            background-size: 280px;
+            font-size: 1.5vw;
+            
+        }
+
+        .im3{
+    
+            margin: 10 auto 0px;
+            padding-bottom: 10px;
+            /* padding-right: 50px; */
+            height: 80px;
+            width: 100px;
+            /* border: 2px solid red; */
+            }
+
+        
+            #cron {
+
+                width: 510px;
+               min-width: 300px;
+                /* border: 2px solid yellow; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
+}
+
+
+
+
+
+
+
+/* media query middle partie formation  */
+
+@media screen and (max-width:980px ) {
+
+    .child1{
+        height: 120px;
+        width: 280px;
+        background-size: 280px;
+        font-size: 1.7vw;
+    }
+    
+    .child2{
+    
+    margin:  auto ;
+    /* padding-bottom: 35px; */
+    height: 190px;
+    width: 180px;
+    /* border: 2px solid blue; */
+    }
+
+    .child3{
+    
+        margin: 5px auto 10px;
+        padding-top: 8px;
+        height: 190px;
+        width: 180px;
+
+        /* border: 2px solid blue; */
+        }
+
+        .child4{
+            height: 100px;
+            width: 280px;
+            background-size: 280px;
+            padding-top: 20px;
+            font-size: 1.5vw;
+        }
+
+        .child5{
+            height: 100px;
+            width: 280px;
+            background-size: 280px;
+            font-size: 1.5vw;
+            
+        }
+
+        .child6{
+    
+            margin: 10 auto 0;
+            height: 70px;
+            width: 190px;
+            
+            /* border: 2px solid red; */
+            }
+
+
+            .child7{
+    
+                margin: 10 auto 20px;
+                height: 70px;
+                width: 190px;
+                /* border: 2px solid red; */
+                }
+
+            
+                .child8{
+    
+                    margin: 10 auto 0px;
+                    padding-bottom: 10px;
+                    /* padding-right: 50px; */
+                    height: 100px;
+                    width: 280px;
+                    background-size: 280px;
+                    font-size: 1.5vw;
+                    /* border: 2px solid red; */
+                    }
+                
+
+            #parent {
+
+                min-width: 600px;
+                /* border: 2px solid green; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
+}
+
+
+@media screen and (max-width: 617px){
+    
+    .child1{
+        height: 90px;
+        width: 220px;
+        background-size: 220px;
+        font-size: 2vw;
+    }
+    
+    .child2{
+    
+    margin:  auto ;
+    /* padding-bottom: 35px; */
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid blue; */
+    }
+
+    .child3{
+    
+        margin: 5px auto 10px;
+        padding-top: 8px;
+        height: 150px;
+        width: 150px;
+
+        /* border: 2px solid blue; */
+        }
+
+        .child4{
+            height: 90px;
+        width: 220px;
+        background-size: 220px;
+            padding-top: 20px;
+            font-size: 2vw;
+            
+        /* border: 2px solid blue; */
+        }
+
+        .child5{
+            height: 90px;
+        width: 220px;
+        background-size: 220px;
+            font-size: 2vw;
+            
+        }
+
+        .child6{
+    
+            margin: 10 auto 0;
+            padding-left: -3px;
+            height: 70px;
+            width: 180px;
+            /* border: 2px solid red; */
+            }
+
+
+            .child7{
+    
+                margin: 15px auto 8px;
+                padding-top: 40px;
+                /* padding-right: 50px; */
+                height: 90px;
+                width: 180px;
+                /* border: 2px solid red; */
+
+                /*  mettre un padding top et ensuite un augmenté la taille de div permet de mettre l'image bien au milieu */
+                }
+
+            
+                .child8{
+    
+                    margin: 10 auto 0px;
+                    padding-bottom: 10px;
+                    /* padding-right: 50px; */
+                    height: 90px;
+                    width: 220px;
+                    background-size: 220px;
+                    font-size: 2vw;
+                    /* border: 2px solid red; */
+                    }
+                
+
+            #parent {
+
+                min-width: 470px;
+                /* border: 2px solid yellow; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
+}
+
+
+
+@media screen and (max-width: 486px) and (min-width: 340px) {
+    
+    .child1{
+        height: 80px;
+        width: 160px;
+        background-size: 160px;
+        font-size: 2vw;
+        padding-top: 5px;
+    }
+    
+    .child2{
+    
+    margin:  auto ;
+    /* padding-bottom: 35px; */
+    height: 130px;
+    width: 110px;
+    /* border: 2px solid blue; */
+    }
+
+    .child3{
+    
+        margin: auto ;
+        height: 130px;
+        width: 120px;
+        padding-bottom: 10px;
+
+        /* border: 2px solid blue; */
+        }
+
+        .child4{
+            height: 80px;
+            width: 150px;
+            background-size: 150px;
+            font-size: 2vw;
+           
+            
+        /* border: 2px solid blue; */
+        }
+
+        .child5{
+            height: 80px;
+            width: 160px;
+            background-size: 160px;
+            font-size: 2vw;
+            padding-top: 5px;
+            
+        }
+
+        .child6{
+    
+            margin: 10 auto 0;
+            height: 70px;
+            width: 150px;
+            padding-bottom: 7px;
+            /* border: 2px solid red; */
+            }
+
+
+            .child7{
+    
+                margin: auto;
+                height: 70px;
+                width: 150px;
+                /* border: 2px solid red; */
+
+                /*  mettre un padding top et ensuite un augmenté la taille de div permet de mettre l'image bien au milieu */
+                }
+
+            
+                .child8{
+    
+                    margin: 10 auto 0px;
+                    padding-bottom: 10px;
+                    height: 80px;
+                    width: 150px;
+                    background-size: 150px;
+                    font-size: 2vw;
+                    /* border: 2px solid red; */
+                    }
+                
+
+            #parent {
+
+                width: 350px;
+                min-width: 340px;
+                /* border: 2px solid teal; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+            }
+
+
+
+    
+/* slider  marge entre images */
+.slider .slides img{
+    width: 350px;
+    height: 450px;
+}
+/* placement des images dans le slider */
+.slider{
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+    margin: 100px auto;
+    margin-top: 0px;
+    /* border: 2px solid red; */
+
+    /* mettre un margin top = 0 permet d'enlever la marge au dessus s'il y en a */
+ 
+}
+/* animation des images */
+.slides{
+    width: calc(900px*5);
+    animation: glisse 15s infinite;
+    
+}
+/* taile espacements des images */
+.slide{
+    float: left; 
+    margin: 17px; 
+    height: 500px;
+    width: 900px;
+} 
+
+           
+           
+
+}
+
+
+.burger {
+    width: 42px;
+    height: 24px;
+    /* background-color: black ; */
+    cursor: pointer;
+    position: relative;
+    display: none;
+    float: right;
+    color: white;
+}
+
+.burger span{
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.burger span::before, .burger span::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    transition: transform 0.5s ease-in-out;
+}
+
+.burger span::before{
+    transform: translateY(-10px);
+}
+
+.burger span::after{
+    transform: translateY(10px);
+}
+
+.burger.active span {
+    /* opacity : 0; */
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+
+}
+
+.burger.active span::before {
+
+    transform: translateY(0px) rotateZ(45deg);
+}
+
+.burger.active span::after {
+
+    transform: translateY(0px) rotateZ(-45deg);
+}
+
+
+/* Le pop-up */
+
+.pop_up{
+
+    height: 300px;
+    width: 200px;
+    background-color: wheat;
+    border-radius: 10px 10px;
+    display: none;
+}
+
+
+.pop_up.active{
+
+    height: 300px;
+    width: 200px;
+    background-color: wheat;
+    border-radius: 10px 10px;
+    position: absolute;
 }

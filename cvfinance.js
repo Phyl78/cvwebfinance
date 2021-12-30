@@ -22,6 +22,22 @@ window.addEventListener("scroll", ()=>{
 })
 
 
+
+const pop_up = document.querySelector(".pop_up");
+
+window.addEventListener("scroll", ()=>{
+
+    if (window.pageYOffset>120){
+
+        pop_up.classList.add("active");
+
+    } else {
+        pop_up.classList.remove("active");
+    }
+
+})
+
+
 const txtAnim=document.querySelector('h5');
 
  new Typewriter( txtAnim, {
