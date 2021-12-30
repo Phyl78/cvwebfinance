@@ -440,7 +440,17 @@ h2, .dev{
 
 .text_comptabilite{
     text-align: center;
+    
+    
 }
+
+.comptabilite, .AssetManagement, .certification{
+
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+
+
 
 /* Partie Css */
 
@@ -865,7 +875,7 @@ h2, .dev{
     background-color:#3f3f3f;
     background-size: 100%;
     height: 150px;
-    margin-top: 376vh;
+    margin-top: 360vh;
     padding: 10px 0; 
     color: white;
     /* margin-top: auto; */
@@ -1031,12 +1041,9 @@ a{
 
 .comb{
     /* border: 2px solid green; */
-    /* height: 30vw; */
-    /* height: auto; */
     width: 25vw;
-    margin-top:158px;
-    /* margin-bottom: 30px; */
-    margin-left: 813px;
+    margin:158px;
+    margin-left: 803px;
     
 }
 
@@ -1096,7 +1103,7 @@ a{
 .combi1{
     height: 35vw;
     width: 25vw;
-    margin: 50px auto;
+    margin: 50px auto 0px;
     /* margin:100px 42px 0px 22px; */
     /* border: 2px solid red; */
 }
@@ -1104,7 +1111,7 @@ a{
 .combi3{
     height: 35vw;
     width: 25vw;
-    margin:50px auto;
+    margin:50px auto ;
     /* margin: 100px 0px 0px 23px; */
     /* border: 2px solid violet; */
 }
@@ -1112,7 +1119,7 @@ a{
 .combi4{
     height: 35vw;
     width: 25vw;
-    margin: 50px auto;
+    margin: 50px auto ;
     /* margin: 100px 5px 0px 65px; */
     /* border: 2px solid blue; */
 }
@@ -1120,16 +1127,18 @@ a{
 .combi5{
     /* height: 35vw; */
     width: 25vw;
-    margin: 50px auto;
-    /* margin: 100px 5px 0px 65px; */
+    margin: 560px auto 0px ;
+    
+    
     /* border: 2px solid blue; */
 }
 
 .combi6{
     /* height: 35vw; */
     width: 25vw;
-    margin: 50px auto;
-    /* margin: 100px 5px 0px 65px; */
+    margin: 180px auto 0px ;
+
+    
     /* border: 2px solid blue; */
 }
 
@@ -1722,6 +1731,7 @@ input{
     width: 100%;
 
 } */
+
 
 /* new add */
 
