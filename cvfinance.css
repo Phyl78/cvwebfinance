@@ -585,7 +585,7 @@ body
     max-width: 662px;
     /* min-width: 640px; */
     /* border: 2px solid yellow; */
-    height: 450px;
+    height: auto;
    
 
 }
@@ -608,6 +608,13 @@ body
     height: 70px;
     width: 170px;
   
+}
+
+.im{
+    margin: auto;
+    /* border: 2px solid red; */
+    height: 150px;
+    width: 170px;
 }
 
 .im2{
@@ -1554,6 +1561,18 @@ body
 
 /* media query small */
 
+
+@media screen and (max-width: 670px) and (min-width:532px) {
+
+    .exp2{
+        font-size: 1.4vw !important;
+        
+    }
+
+
+    
+}
+
 @media screen and (max-width:670px ) and (min-width:340px ) {
 
     .exp1{
@@ -1575,6 +1594,8 @@ body
     /* border: 2px solid blue; */
     }
 
+   
+
     .im2{
     
         margin: 0 auto 10px;
@@ -1587,10 +1608,10 @@ body
         .im{
     
             margin: 0 auto 10px;
-            height: 75px;
-            width: 150px;
+            height: 95px;
+            width: 120px;
     
-            border: 2px solid blue;
+            /* border: 2px solid yellow; */
             }
 
         .exp2{
@@ -1627,7 +1648,7 @@ body
             #cron {
 
                 width: 340px;
-               min-width: 300px;
+               min-width: 340px;
                 /* border: 2px solid red; */
                 display: flex;
                 flex-direction: row;
@@ -1662,6 +1683,13 @@ body
     height: 60px;
     width: 180px;
     /* border: 2px solid blue; */
+    }
+
+    .im{
+        margin: 0 auto 20px;
+        height: 95px;
+        width: 120px;
+          /* border: 2px solid red; */
     }
 
     .im2{
@@ -1733,6 +1761,14 @@ body
     /* border: 2px solid blue; */
     }
 
+    .im{
+        margin: 0 auto 20px;
+        height: 95px;
+        width: 120px;
+        /* border: 2px solid green; */
+    }
+
+
     .im2{
     
         margin: 5px auto 10px;
@@ -1802,6 +1838,13 @@ body
     height: 60px;
     width: 130px;
     /* border: 2px solid blue; */
+    }
+
+    .im{
+        margin: 0 auto 20px;
+        height: 95px;
+        width: 120px;
+        /* border: 2px solid blue; */
     }
 
     .im2{

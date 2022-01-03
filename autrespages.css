@@ -875,7 +875,7 @@ h2, .dev{
     background-color:#3f3f3f;
     background-size: 100%;
     height: 150px;
-    margin-top: 360vh;
+    margin-top: 380vh;
     padding: 10px 0; 
     color: white;
     /* margin-top: auto; */
@@ -1042,7 +1042,8 @@ a{
 .comb{
     /* border: 2px solid green; */
     width: 25vw;
-    margin:158px;
+    margin:228px;
+    margin-bottom: 60px;
     margin-left: 803px;
     
 }
@@ -1111,7 +1112,7 @@ a{
 .combi3{
     height: 35vw;
     width: 25vw;
-    margin:50px auto ;
+    margin:50px auto 0px;
     /* margin: 100px 0px 0px 23px; */
     /* border: 2px solid violet; */
 }
@@ -1119,7 +1120,7 @@ a{
 .combi4{
     height: 35vw;
     width: 25vw;
-    margin: 50px auto ;
+    margin: 50px auto 0px ;
     /* margin: 100px 5px 0px 65px; */
     /* border: 2px solid blue; */
 }
@@ -1127,7 +1128,7 @@ a{
 .combi5{
     /* height: 35vw; */
     width: 25vw;
-    margin: 560px auto 0px ;
+    margin: auto ;
     
     
     /* border: 2px solid blue; */
@@ -1136,7 +1137,7 @@ a{
 .combi6{
     /* height: 35vw; */
     width: 25vw;
-    margin: 180px auto 0px ;
+    margin: 0px auto 0px ;
 
     
     /* border: 2px solid blue; */
@@ -1246,7 +1247,7 @@ main {
     max-width: 662px;
     min-width: 640px;
     /* border: 2px solid yellow; */
-    height: 450px;
+    height: auto;
    
 
 }
@@ -1268,12 +1269,25 @@ main {
     /* border: 2px solid red; */
     height: 70px;
     width: 170px;
+    padding-top: 40px;
+    padding-bottom: 75px;
   
 }
 
 .im2{
     margin:auto;
     /* border: 2px solid orange; */
+    padding-top: 20px;
+    padding-bottom: 40px;
+ 
+}
+
+
+.im{
+    height: 150px;
+    width: 160px;
+    margin: auto;
+     /* border: 2px solid orange; */
  
 }
 
@@ -1295,6 +1309,7 @@ main {
     background-position-y:center;
     height: 120px;
     width: 324px;
+    
     /* margin-left: 90px; */
 }
 
